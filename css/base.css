@@ -1,0 +1,30 @@
+body {
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    color: #000;
+}
+
+/* utility */
+
+.none {
+    display: none !important;
+}
+
+.visually-hedden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+/* grid */
+
+.no-scroll{
+    overflow: hidden;
+}
+

@@ -1,0 +1,377 @@
+.main{
+    background-color: #CBECFF;
+}
+
+.container{
+    position: relative;
+    width: 1024px;
+    padding: 60px 0;
+    margin: 0 auto;
+}
+
+.main .container, .advantages .container{
+    display: flex;
+}
+
+.translation_wrap{
+    position: absolute;
+    top: 22px;
+    right: -15px;
+    display: flex;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.translation_ru{
+    font-weight: 400;
+    text-align: center;
+    color: #0962E8 !important;
+    margin-right: 15px;
+    background-color: #fff;
+    width: 26px;
+    height: 24px;
+    border-radius: 12px;
+}
+
+.main_title{
+    margin-top: 79px;
+}
+
+h1{
+    font-size: 64px;
+    color: #29374E;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+h1 span{
+    display: inline-block;
+    color: #0962E8;
+    background-color: #fff;
+    height: 80px;
+    width: 122px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 8px;
+}
+
+.main_subtitle{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28.6px;
+    color: #29374E;
+    width: 384px;
+    margin: 11px 0 38px;
+}
+
+.btn_prime{
+    width: 199px;
+    height: 52px;
+    border-radius: 8px;
+    line-height: 52px;
+    text-align: center;
+    background-color: #0962E8;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main_image{
+    position: relative;
+    top: 0;
+    right: -100px;
+    height: 555px;
+}
+
+.main_row{
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main_card{
+    position: relative;
+    width: 241px;
+    height: 118px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 6px 4px 12px 0px rgba(0, 0, 0, 0.05);
+    padding: 22px 20px 8px;
+}
+
+.main_card_title{
+    color: #29374E;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.main_card_img{
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    width: 39.167px;
+    height: 39.167px;
+    padding: 7px 6px 8px 9px;
+    background-color: #EFF9FF;
+    border-radius: 50%;
+}
+
+.products{
+    margin-top: 90px;
+}
+
+.block_title{
+    color: #29374E;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: -1.14px;
+}
+
+.block_title span{
+    color: #0962E8;
+}
+
+.products_row{
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products_card{
+    width: 502px;
+    height: 328px;
+    border-radius: 30px;
+    background-color: #E9F6FF;
+    padding: 37px 33px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products_card_text{
+    width: 201px;
+    color: #000;
+    line-height: 140%;
+}
+
+.products_card_title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.products_card_subtitle{
+    font-size: 14px;
+    font-weight: 400
+}
+
+.products_card img{
+    width: 218px;
+    height: 291px;
+}
+
+.advantages .container{
+    justify-content: space-between;
+}
+
+.advantages_text h2{
+    text-align: left;
+}
+
+.advantages_subtitle{
+    width: 405px;
+    margin: 21px 0 37px;
+    color: #1E2837;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%; 
+}
+
+.advatages_row{
+    display: flex;
+}
+
+.advantages_card{
+    padding: 17px 20px 30px 26px;
+    width: 231px;
+    height: 140px;
+}
+
+.advantages_card_title{
+    color: #29374E;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+    margin-top: 13px;
+}
+
+.advantages_card:nth-child(1){
+    margin-right: 19px;
+}
+
+@media (max-width: 1200px) {
+    .main_image{
+        right: 0;
+    }
+    .translation_wrap{
+        right: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container{
+        width: 100%;
+    }
+    .main_image{
+        position: static;
+        height: 400px;
+        width: 400px;
+    }
+    .main .container, .main_row, .products_row, .advantages .container{
+        justify-content: space-around;
+    }
+    .main_card, .advantages_card{
+        width: 164px;
+        padding: 42px 10px 0 18px;
+    }
+    .main_card_title, .advantages_card_title{
+        font-size: 14px;
+    }
+    .main_card_img{
+        left: 18px;
+        top: -5px;
+    }
+    .main_subtitle{
+        font-size: 16px;
+        line-height: 1.3;
+        width: 330px;
+    }
+    .logo h1{
+        font-size: 60px;
+        line-height: 60px;
+    }  
+    .logo h1 span{
+        width: 110px;
+        height: 60px;
+        border-radius: 15px;
+    }
+    .products{
+        margin-top: 0;
+    }
+    .block_title{
+        font-size: 24px;
+    }
+    .products_row{
+        margin-top: 24px;
+    }
+    .products_card{
+        width: 344px;
+        height: 215px;
+        padding: 25px 20px 0 16px;
+    }
+    .products_card_title{
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .products_card_subtitle{
+        font-size: 13px;
+        line-height: 1.4;
+        width: 162px;
+    }
+    .products_card img{
+        height: 190px;
+        width: 142px;
+    }
+    .advantages_subtitle{
+        font-size: 14px;
+        width: 343px;
+        line-height: 1.4;
+    }
+    .advantages_card{
+        position: relative;
+        height: 118px;
+        border-radius: 20px;
+        box-shadow: 6px 4px 12px 0px rgba(0, 0, 0, 0.05);
+        margin-bottom: 20px;
+    }
+    .advantages_card img{
+        position: absolute;
+        top: -5px;
+        left: 18px;
+    }
+    .advantages_card_title{
+        line-height: 1.4;
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .main .container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 13px;
+
+    }
+    .main_title{
+        margin-top: -10px;
+        text-align: center;
+    }
+    .main_subtitle{
+        margin-bottom: 10px;
+    }
+    .main_row{
+        margin-top: 22px;
+        position: static;
+        flex-wrap: wrap;
+        width: 343px;
+        justify-content: space-between;
+    }
+    .main_card{
+        margin-bottom: 20px;
+    }
+    .products .container{
+        padding: 40px 0 0;
+    }
+    .products_row, .advantages .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .products_card{
+        margin-bottom: 16px;
+    }
+    .advantages .container{
+        padding-top: 24px;
+    }
+    .advantages_text{
+        text-align: center;
+    }
+    .advantages_text h2{
+        text-align: center;
+    }
+    .advantages_subtitle{
+        margin: 1px 0 12px;
+    }
+    .advatages_wrap{
+        margin-top: 37px;
+    }
+}
+
+@media (max-width: 400px) {
+    .main_image{
+        object-fit: cover;
+    }
+    .main_title{
+        text-align: left;
+    }
+    .btn_prime{
+        width: 100%;
+    }
+}
